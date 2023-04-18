@@ -439,7 +439,3 @@ HashSet 和 HashMap 等集合类使用 hashCode() 来计算对象应该存储的
 - 两个对象 equals() 相等则 hashCode() 必需相等；
 - 两个对象 hashCode() 相等 equals() 不一定相等，可能是哈希冲突
 
-### 3 toString()
-
-默认返回 ToStringExample@4554617c 的形式，其中@后的数值为散列码的无符号十六进制表示。
-
